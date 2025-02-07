@@ -148,3 +148,7 @@ PRODUCT_AAPT_PREF_CONFIG := tvdpi
 PRODUCT_CHARACTERISTICS := tv
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.0-service-vpudriver \
+    MvNCAPI.mvcmd
