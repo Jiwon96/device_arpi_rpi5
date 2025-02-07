@@ -3,7 +3,7 @@
   $ sudo apt install libssl-dev python3-setuptools 
 
 # Download Android source
-  https://github.com/Jiwon96/local_manifests
+  https://github.com/Jiwon96/local_manifests/tree/arpi-14-ncs
 
 # Build Android
  Refer to http://source.android.com/source/building.html
